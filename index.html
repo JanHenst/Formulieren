@@ -6,6 +6,7 @@
   <meta charset="UTF-8">
   <meta name="description" content="Vragenlijst persoonlijk">
   <meta name="author" content="Jan van der Henst">
+  <link rel = "stylesheet" href = "css.css">
 
 </head>
 
@@ -23,7 +24,6 @@
     <option value="MG1C"> MG1C
     <option value="MG1D"> MG1D
     </select>
-
 <fieldset>
     <legend>Welbevinden</legend>
     <h4>Hoe positief ben je op dit moment over je opleiding?</h4>
@@ -97,13 +97,13 @@
     <legend>Sterke kanten</legend>
     <h4>Wat zijn jouw sterke kanten?</h4>
 
-    <label><input type="checkbox" name="kanten" value="Coderen in HTML/CSS"> Coderen in HTML/CSS</label><br>
-    <label><input type="checkbox" name="kanten" value="Programmeren in Java"> Programmeren in Java</label><br>
+    <label><input type="checkbox" name="kanten_1" value="Coderen in HTML/CSS"> Coderen in HTML/CSS</label><br>
+    <label><input type="checkbox" name="kanten_2" value="Programmeren in Java"> Programmeren in Java</label><br>
 
-    <label><input type="checkbox" name="kanten" value="Scripting: programmeren in JavaScript"> Scripting: programmeren in JavaScript</label><br>
+    <label><input type="checkbox" name="kanten_3" value="Scripting: programmeren in JavaScript"> Scripting: programmeren in JavaScript</label><br>
 
-    <label><input type="checkbox" name="kanten" value="Planning"> Planning</label><br>
-    <label><input type="checkbox" name="kanten" value="Samenwerken"> Samenwerken</label>
+    <label><input type="checkbox" name="kanten_4" value="Planning"> Planning</label><br>
+    <label><input type="checkbox" name="kanten_5" value="Samenwerken"> Samenwerken</label>
 
   </fieldset>
 
@@ -111,18 +111,21 @@
       <legend>Nog te ontwikkelen</legend>
       <h4>Aan welke skills moet je nog extra aandacht besteden?</h4>
 
-      <label><input type="checkbox" name="ontwikkelen" value="Coderen in HTML/CSS"> Coderen in HTML/CSS</label><br>
-      <label><input type="checkbox" name="ontwikkelen" value="Programmeren in Java"> Programmeren in Java</label><br>
+      <label><input type="checkbox" name="ontwikkelen_1" value="Coderen in HTML/CSS"> Coderen in HTML/CSS</label><br>
+      <label><input type="checkbox" name="ontwikkelen_2" value="Programmeren in Java"> Programmeren in Java</label><br>
 
-      <label><input type="checkbox" name="ontwikkelen" value="Scripting: programmeren in JavaScript"> Scripting: programmeren in JavaScript</label><br>
+      <label><input type="checkbox" name="ontwikkelen_3" value="Scripting: programmeren in JavaScript"> Scripting: programmeren in JavaScript</label><br>
 
-      <label><input type="checkbox" name="ontwikkelen" value="Planning"> Planning</label><br>
-      <label><input type="checkbox" name="ontwikkelen" value="Samenwerken"> Samenwerken</label>
+      <label><input type="checkbox" name="ontwikkelen_4" value="Planning"> Planning</label><br>
+      <label><input type="checkbox" name="ontwikkelen_5" value="Samenwerken"> Samenwerken</label>
 
     </fieldset>
+      <label> Email:
+      <input id = "email" type="email" name="mailAdres" placeholder="Bv. hoi@gmail.com" required="required"></label>
 
     <h4>Wat zijn jouw plannen voor de toekomst?</h4>
 <textarea name="planToekomst" rows="8" cols="55"></textarea>
+
 <input type="submit" value="Versturen">
 </form>
 

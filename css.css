@@ -1,0 +1,15 @@
+label {
+  display: inline-block;
+  padding: 1em;
+  cursor: pointer;
+  text-align: center;
+}
+
+input {
+  display: block;
+}
+
+/* #email {
+  padding-left: 5px;
+  margin: 16px;
+} */
